@@ -499,17 +499,6 @@
             position: relative;
         }
         
-        .lang-li:first-child::after {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            right: 50%;
-            transform: translateX(50%);
-            width: 70%;
-            height: 1px;
-            background-color: #ededed;
-        }
-        
         .lang-li .lang-link {
             color: #757575;
             text-decoration: none;
